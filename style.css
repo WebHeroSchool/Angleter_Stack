@@ -1,31 +1,7 @@
-@font-face {
-    font-family: 'PT Sans Caption';
-    src: url('fonts/PTSans-Caption.woff2') format('woff2'),
-        url('fonts/PTSans-Caption.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PT Sans Caption';
-    src: url('fonts/PTSans-CaptionBold.woff2') format('woff2'),
-        url('fonts/PTSans-CaptionBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Museo Sans Cyrl';
-    src: local('Museo Sans Cyrl 500'), local('MuseoSansCyrl-500'), url('fonts/Museosanscyrl500.woff2') format('woff2'), url('fonts/Museosanscyrl500.woff') format('woff'), url('Museosanscyrl500.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
 body {
     margin: 0;
     padding: 0;
 }
-
 
 .container {
     width: 100%;
@@ -145,7 +121,7 @@ body {
     padding-left: 48px;
     font-size: 38px;
     line-height: 52px;
-    transform: scaleX(0.9);
+    /* transform: scaleX(0.9); */
 }
 
 .logo-wrapper {
