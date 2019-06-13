@@ -21,7 +21,7 @@ body {
     left: 0;
     
     width: 400px;
-    min-height: 1000px;
+    min-height: 950px;
     
     background-image: url("img/left_background.svg");
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body {
     right: 0px;
     
     width: 554px;
-    min-height: 1000px;
+    min-height: 964px;
     
     background-image: url("img/right_background.svg");
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ body {
     padding-left: 48px;
     font-size: 38px;
     line-height: 52px;
-    /* transform: scaleX(0.9); */
+    transform: scaleX(0.9);
 }
 
 .logo-wrapper {
@@ -133,7 +133,7 @@ body {
   
     position: absolute;
     bottom: 12px;
-    left: 6px;
+    left: 8px;
   
     width: 29px;
     height: 29px;
@@ -150,8 +150,7 @@ body {
   
     position: absolute;
     bottom: 16px;
-    left: 2px;
-  
+    left: 4px;
     width: 29px;
     height: 29px;
   
@@ -176,6 +175,13 @@ body {
     padding-left: 10px;
     padding-right: 11px;
 }
+.intro {
+    background-image: url("img/iphone_xs.png");
+    background-repeat: no-repeat;
+    background-position: center 315px;
+    
+    min-height: 770px;
+}
 
 .intro-title {
     font-weight: bold;
@@ -189,14 +195,10 @@ body {
 
 .intro__button-wrapper {
     width: 426px;
-    min-height: 620px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin: 0 auto;
-    background-image: url("img/iphone_xs.png");
-    background-repeat: no-repeat;
-    background-position: -30px 154px;
 }
 
 .download-button {
@@ -236,7 +238,7 @@ body {
 
     .logo-wrapper::before {
         bottom: 16px;
-        left: 3px;
+        left: 5px;
       
         width: 22px;
         height: 22px;
@@ -244,7 +246,7 @@ body {
 
     .logo-wrapper::after {
         bottom: 19px;
-        left: 0px;
+        left: 2px;
 
         width: 22px;
         height: 22px;
@@ -258,7 +260,11 @@ body {
         padding-left: 9px;
         padding-right:9px;
     }
-
+    .intro {
+        background-position: center 224px;
+        background-size: 380px;
+        min-height: 590px;
+    }
     .intro-title {
         font-size: 32px;
         line-height: 41px;
@@ -276,9 +282,6 @@ body {
 
     .intro__button-wrapper {
         width: 333px;
-        min-height: 620px;
-        background-position: -23px 104px;
-        background-size: 380px;
     }
 
 }
@@ -293,11 +296,12 @@ body {
         left: 0px;
         background-size: 315px;
         background-image: url("img/left_background_1170.svg");
+        min-height: 700px;
     }
 
     .container::after {
         width: 395px;
-        min-height: 764px;
+        min-height: 750px;
         background-image: url("img/right_background_1366.svg");
         background-size: 395px;
     }
@@ -314,7 +318,7 @@ body {
 
     .logo-wrapper::before {
         bottom: 16px;
-        left: 3px;
+        left: 5px;
       
         width: 22px;
         height: 22px;
@@ -322,7 +326,7 @@ body {
 
     .logo-wrapper::after {
         bottom: 19px;
-        left: 0px;
+        left: 2px;
 
         width: 22px;
         height: 22px;
@@ -338,6 +342,11 @@ body {
         line-height: 18px;
         padding-left: 9px;
         padding-right:9px;
+    }
+    .intro {
+        background-position: center 224px;
+        background-size: 380px;
+        min-height: 580px;
     }
 
     .intro-title {
@@ -357,9 +366,6 @@ body {
 
     .intro__button-wrapper {
         width: 333px;
-        min-height: 620px;
-        background-position: -23px 102px;
-        background-size: 380px;
     }
 }
 
@@ -395,7 +401,7 @@ body {
 
     .logo-wrapper::before {
         bottom: 16px;
-        left: 3px;
+        left: 5px;
       
         width: 22px;
         height: 22px;
@@ -403,7 +409,7 @@ body {
 
     .logo-wrapper::after {
         bottom: 19px;
-        left: 0px;
+        left: 2px;
 
         width: 22px;
         height: 22px;
@@ -421,7 +427,11 @@ body {
         padding-left: 9px;
         padding-right:9px;
     }
-
+    .intro {
+        background-position: center 224px;
+        background-size: 380px;
+        min-height: 580px;
+    }
     .intro-title {
         font-size: 32px;
         line-height: 41px;
@@ -439,9 +449,6 @@ body {
 
     .intro__button-wrapper {
         width: 333px;
-        min-height: 620px;
-        background-position: -23px 102px;
-        background-size: 380px;
     }
 }
 
@@ -470,6 +477,7 @@ body {
     .container::after {
         display: none;
     }
+
 
     .menu__icon {
         display: block;
@@ -502,13 +510,13 @@ body {
 
     .logo {
         font-size: 44px;
-        padding-left: 48px;
+        padding-left: 55px;
         padding-right: 20px;
     }
     
     .logo-wrapper::before {
         bottom: 10px;
-        left: 1px;
+        left: 8px;
         background-color: #FF9100;
         width: 33.3px;
         height: 33.3px;
@@ -516,32 +524,32 @@ body {
       
     .logo-wrapper::after {
         bottom: 14px;
-        left: -3px;
+        left: 4px;
         background-color: #FF9100;
         width: 33.3px;
         height: 33.3px;
     }
-
+    .intro {
+        background-position: center 204px;
+        background-size: 310px;
+        min-height: 480px;
+    }
     .intro-title {
         font-size: 24px;
         line-height: 31px;
-        padding-right: 5px;
         max-width: 283px;
         margin: 0 auto 66px;
     }
 
     .intro__button-wrapper {
-        width: 320px;
-        min-height: 320px;
+        width: 240px;
         margin: 0 auto 12px;
-        background-position: 0px 45px;
-        background-size: 315px;
     }
 
     .download-button {
         width: 108px;
         height: 36px;
-        padding-left: 3px;
-        padding-right: 7px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
