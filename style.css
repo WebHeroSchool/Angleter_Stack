@@ -118,7 +118,6 @@ body {
 
 .logo {
     display: block;
-    padding-left: 48px;
     font-size: 38px;
     line-height: 52px;
     transform: scaleX(0.9);
@@ -126,6 +125,7 @@ body {
 
 .logo-wrapper {
     position: relative;
+    padding-left: 46px;
 }
 
 .logo-wrapper::before {
@@ -216,11 +216,12 @@ body {
         top: 40px;
         left: -10px;
         background-size: 360px;
+        min-height: 600px;
     }
 
     .container::after {
         width: 394px;
-        min-height: 764px;
+        min-height: 745px;
         background-image: url("img/right_background_1366.svg");
         background-size: 395px;
     }
@@ -229,9 +230,10 @@ body {
         padding: 29px 146px 0px 224px;
         margin-bottom: 76px;
     }
-
-    .logo {
+    .logo-wrapper {
         padding-left: 36px;
+    }
+    .logo {
         font-size: 29px;
         transform: scaleX(0.9);
     }
@@ -301,7 +303,7 @@ body {
 
     .container::after {
         width: 395px;
-        min-height: 750px;
+        min-height: 730px;
         background-image: url("img/right_background_1366.svg");
         background-size: 395px;
     }
@@ -310,8 +312,12 @@ body {
         padding: 30px 48px 0 125px;
         margin-bottom: 76px;
     }
-    .logo {
+
+    .logo-wrapper {
         padding-left: 36px;
+    }
+
+    .logo {
         font-size: 29px;
         transform: scaleX(0.9);
     }
@@ -379,11 +385,12 @@ body {
         left: 0px;
         background-size: 315px;
         background-image: url("img/left_background_1170.svg");
+        min-height: 700px;
     }
 
     .container::after {
         width: 395px;
-        min-height: 764px;
+        min-height: 730px;
         background-image: url("img/right_background_1366.svg");
         background-size: 395px;
     }
@@ -392,9 +399,10 @@ body {
         padding: 30px 48px 0 125px;
         margin-bottom: 76px;
     }
-
-    .logo {
+    .logo-wrapper {
         padding-left: 36px;
+    }
+    .logo {
         font-size: 29px;
         transform: scaleX(0.9);
     }
@@ -508,10 +516,13 @@ body {
         line-height: 36px;
     }
 
+    .logo-wrapper {
+        padding-left: 55px;
+    }
+
     .logo {
         font-size: 44px;
-        padding-left: 55px;
-        padding-right: 20px;
+        /* padding-right: 20px; */
     }
     
     .logo-wrapper::before {
@@ -543,7 +554,7 @@ body {
 
     .intro__button-wrapper {
         width: 240px;
-        margin: 0 auto 12px;
+        margin: 0 auto 0px;
     }
 
     .download-button {
